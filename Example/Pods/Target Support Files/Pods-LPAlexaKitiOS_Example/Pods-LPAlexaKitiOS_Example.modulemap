@@ -1,0 +1,6 @@
+framework module Pods_LPAlexaKitiOS_Example {
+  umbrella header "Pods-LPAlexaKitiOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

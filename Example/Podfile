@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LPAlexaKitiOS_Example' do
+  pod 'LPAlexaKitiOS', :path => '../'
+
+  target 'LPAlexaKitiOS_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

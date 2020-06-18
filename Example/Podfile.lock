@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LPAlexaKitiOS (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LPAlexaKitiOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LPAlexaKitiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LPAlexaKitiOS: 3b4c7f83b05d89feeed6c591640cd83395ec7678
+
+PODFILE CHECKSUM: c20a27be9ad0f1a683c320aca8cd2ef94cf41b42
+
+COCOAPODS: 1.8.4

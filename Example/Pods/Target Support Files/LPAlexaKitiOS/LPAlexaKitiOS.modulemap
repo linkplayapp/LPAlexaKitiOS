@@ -1,0 +1,6 @@
+framework module LPAlexaKitiOS {
+  umbrella header "LPAlexaKitiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
