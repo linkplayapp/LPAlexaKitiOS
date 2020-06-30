@@ -1,18 +1,18 @@
-# LPMusicKitiOS
+# LPAlexaKitiOS
 
 [English](README.md) | [中文](README_zh.md)
 
-Linkplay Music Kit is the app side SDK for Linkplay Home Audio solution；you can use it to implement our solution into your product.
+LPAlexaKitiOS is the app side SDK for Linkplay Alexa operation solution；you can use it to implement the device's Alexa login and Alexa information settings.
 
-MusicKit mainly solves 2 issues：
+LPAlexaKit mainly provides two functions：
 
-- Maintain the commnunication protocol with our firmware so that your app could interact with the device without concerning the comlexity of the lower layers.
+- Device Alexa login and logout.
 
-- Wrapper the complexity of cloud services (includes music services and voice services etc.) so that you can intergtate them rapidly and don't bother the details.
+- Device Alexa information settings, such as language, prompt tone, etc.
 
 ## Documentation
 
-You can find documentation [on the website](https://linkplayapp.github.io/linkplay_sdk_doc/en/).
+You can find documentation [on the website](https://linkplayapp.github.io/linkplay_sdk_doc/en/iOS/Alexa.html).
 
 ## Example
 
@@ -22,15 +22,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LPMusicKitiOS is available through [CocoaPods](https://cocoapods.org). To install
+LPAlexaKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'your_target_name' do
 
-   pod "LPMusicKitiOS", :git => "https://github.com/linkplayapp/LPMusicKitiOS.git"
+   pod "LPAlexaKitiOS", :git => "https://github.com/linkplayapp/LPAlexaKitiOS.git"
 
 end
 ```
