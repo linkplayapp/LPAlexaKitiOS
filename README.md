@@ -1,9 +1,18 @@
-# LPAlexaKitiOS
+# LPMusicKitiOS
 
-[![CI Status](https://img.shields.io/travis/675744097@qq.com/LPAlexaKitiOS.svg?style=flat)](https://travis-ci.org/675744097@qq.com/LPAlexaKitiOS)
-[![Version](https://img.shields.io/cocoapods/v/LPAlexaKitiOS.svg?style=flat)](https://cocoapods.org/pods/LPAlexaKitiOS)
-[![License](https://img.shields.io/cocoapods/l/LPAlexaKitiOS.svg?style=flat)](https://cocoapods.org/pods/LPAlexaKitiOS)
-[![Platform](https://img.shields.io/cocoapods/p/LPAlexaKitiOS.svg?style=flat)](https://cocoapods.org/pods/LPAlexaKitiOS)
+[English](README.md) | [中文](README_zh.md)
+
+Linkplay Music Kit is the app side SDK for Linkplay Home Audio solution；you can use it to implement our solution into your product.
+
+MusicKit mainly solves 2 issues：
+
+- Maintain the commnunication protocol with our firmware so that your app could interact with the device without concerning the comlexity of the lower layers.
+
+- Wrapper the complexity of cloud services (includes music services and voice services etc.) so that you can intergtate them rapidly and don't bother the details.
+
+## Documentation
+
+You can find documentation [on the website](https://linkplayapp.github.io/linkplay_sdk_doc/en/).
 
 ## Example
 
@@ -13,17 +22,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LPAlexaKitiOS is available through [CocoaPods](https://cocoapods.org). To install
+LPMusicKitiOS is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LPAlexaKitiOS'
+platform :ios, '9.0'
+
+target 'your_target_name' do
+
+   pod "LPMusicKitiOS", :git => "https://github.com/linkplayapp/LPMusicKitiOS.git"
+
+end
 ```
 
 ## Author
 
-675744097@qq.com, yu.sun@linkplay.com
-
-## License
-
-LPAlexaKitiOS is available under the MIT license. See the LICENSE file for more info.
+LinkPlay, ios_team@linkplay.com
