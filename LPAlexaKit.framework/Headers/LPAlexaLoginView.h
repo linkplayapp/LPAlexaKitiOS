@@ -43,7 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param frame 网页Frame 一般是全屏
 /// @param device 设备对象
 /// @param isBeta 是否是BETA版本
-- (instancetype)initAlexaLoginViewWithFrame:(CGRect)frame device:(LPDevice *)device isBeta:(BOOL)isBeta;
+/// @param betaString 如果是Beta版本，默认的值是@"_BETA",
+- (instancetype)initAlexaLoginViewWithFrame:(CGRect)frame device:(LPDevice *)device isBeta:(BOOL)isBeta betaString:(NSString *)betaString;
 
 @end
 
